@@ -1,0 +1,165 @@
+.frame{
+    height: 500px;
+    width: 500px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 80px;
+    background-color: rgba(195, 201, 182, 0.518);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top:248px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.key{
+    position:absolute;
+    color: rgba(255, 36, 237, 0.678);
+    font-size: 100px;
+    text-shadow: 7px 1px 10px rgb(40, 42, 42);
+}
+
+.key1{
+    position:absolute;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 6px 1px 7px rgb(0, 0, 0);
+}
+
+#f12{
+    left: 199px;
+    top: -50px;
+}
+#f3{
+    top:193px;
+    right: -20px;
+    
+}
+#f6{
+    top:187px;
+    left: -20px;
+}
+#f9{
+    bottom: -50px;
+    left: 226px;
+}
+
+#f1{
+    left: 372px;
+    top: 18px;
+}
+#f2{
+    left: 452px;
+    top: 104px;
+}
+#f4{
+    left: 452px;
+    top: 346px;
+}
+#f5{
+    left: 372px;
+    top: 425px;
+}
+#f7{
+    left: 100px;
+    top: 425px;
+}
+#f8{
+    left: 18px;
+    top: 346px;
+}
+#f10{
+    left: 18px;
+    top: 104px;
+}
+#f11{
+    left: 100px;
+    top: 18px;
+}
+.m{
+    position: absolute;
+    right: 149px;
+    height: 4px;
+    width: 100px;
+    background-color: black;
+}
+.h{
+    position: absolute;
+    right: 49px;
+    height: 4px;
+    width: 200px;
+    background-color: rgb(91, 20, 132);
+}
+
+.sec{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgb(219, 234, 124);
+}
+
+.mint{
+    position: absolute;
+    height: 340px;
+    width: 340px;
+    border-radius: 50%;
+    /* background-color: pink; */
+}
+
+.hour{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    /* background-color: rgb(255, 0, 43); */
+}
+
+.mhan{
+    height: 170px;
+    width: 3px;
+    background-color: rgb(66, 64, 64);
+    position: absolute;
+    left: 168px;
+}
+.marrow{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left:160.5px ;
+    top:-8px;
+}
+
+.hhan{
+    height: 111px;
+    width: 3px;
+    background-color: rgb(63, 62, 62);
+    position: absolute;
+    left: 108px;
+}
+.harrow{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left:100.5px ;
+    top:-8px;
+}
+
+.shan{
+    height: 197px;
+    width: 3px;
+    background-color: rgba(255, 0, 132, 0.648);
+    position: absolute;
+    left: 198px;
+    top:4px;
+}
